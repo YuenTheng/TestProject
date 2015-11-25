@@ -1,0 +1,10 @@
+#include <iostream>
+
+void Main()
+{
+	cout<<"Hello World"<<endl;	
+
+
+	return 0;
+
+}
