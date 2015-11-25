@@ -1,9 +1,12 @@
 #include <iostream>
 
-void OnTouchDown
+using namespace std;
+
+int main()
 {
-    //blahblahblah
+	return 0;
 }
+
 
 
 
