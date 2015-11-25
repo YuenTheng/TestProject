@@ -6,17 +6,6 @@ void OnTouchDown
 }
 
 
-void testatthesametime
-{
-	
-	
-	
-}
-
-void DAHDAHDAH()
-{
-	
-}
 
 
 
