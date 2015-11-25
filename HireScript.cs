@@ -3,12 +3,11 @@ using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 
-public class HireScript : MonoBehaviour 
+public class HireScript : MonoBehaviour
 {
-	public bool isHireMenuActive = false;
-	public int ssCounter = 0;
-	public int slot = 0;
     public bool isHireMenuActive = false;
+    public int ssCounter = 0;
+    public int slot = 0;
 
     public bool isTimerActive = false;
     public float timer = 0.0f;
