@@ -126,7 +126,7 @@ public class HireScript : MonoBehaviour
                         tempSpeedText.GetComponent<Text>().text = touchManagerScript.Unit1.GetComponent<CasterClassScript>().getCurSpeed().ToString();
                     }
                 }
-                else if (clickedButton == hire2.gameObject)
+                if (clickedButton == hire2.gameObject)
                 {
                     if (randomNumber == 1)
                     {
@@ -153,7 +153,7 @@ public class HireScript : MonoBehaviour
                         tempSpeedText.GetComponent<Text>().text = touchManagerScript.Unit2.GetComponent<CasterClassScript>().getCurSpeed().ToString();
                     }
                 }
-                else if (clickedButton == hire3.gameObject)
+                if (clickedButton == hire3.gameObject)
                 {
                     if (randomNumber == 1)
                     {
@@ -180,6 +180,7 @@ public class HireScript : MonoBehaviour
                         tempSpeedText.GetComponent<Text>().text = touchManagerScript.Unit3.GetComponent<CasterClassScript>().getCurSpeed().ToString();
                     }
                 }
+
                 timer = 0.0f;
                 isTimerActive = false;
             }
@@ -230,8 +231,8 @@ public class HireScript : MonoBehaviour
             tempImage = centerImage;
             tempClassText = classTextCenter;
             tempHealthText = healthTextCenter;
-            tempAttackText = attackTextLeft;
-            tempSpeedText = speedTextLeft;
+            tempAttackText = attackTextCenter;
+            tempSpeedText = speedTextCenter;
         }
         else if (clickedButton == hire3.gameObject && touchManagerScript.Unit3 == null)
         {
@@ -241,8 +242,8 @@ public class HireScript : MonoBehaviour
             tempImage = rightImage;
             tempClassText = classTextRight;
             tempHealthText = healthTextRight;
-            tempAttackText = attackTextLeft;
-            tempSpeedText = speedTextLeft;
+            tempAttackText = attackTextRight;
+            tempSpeedText = speedTextRight;
         }
         GenerateSS(tempPos);
         ToggleSlots();
